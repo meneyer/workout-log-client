@@ -33,7 +33,7 @@ const protectedViews = () => {
 
   return (
     <div>
-      <Sitebar clearToken={clearToken}/>
+      <Sitebar clickLogout={clearToken}/>
       {protectedViews()}
       {/* <Auth updateToken={updateToken} /> */}
     </div>
